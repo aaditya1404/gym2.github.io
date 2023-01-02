@@ -1,0 +1,109 @@
+/* CSS reset */
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/abs-1850926_1920.jpg');
+    font-family: cursive;
+
+}
+
+.left {
+    position: absolute;
+    top: 24px;
+    left: 40px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+
+.left img {
+    width: 90px;
+    filter: invert(100%);
+}
+
+.left div {
+    text-align: center;
+    font-size: 25px;
+}
+
+.right {
+    position: absolute;
+    right: 40px;
+    top: 46px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+.btn {
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+.btn:hover {
+    background-color: grey;
+}
+
+.mid {
+    display: block;
+    width: 46%;
+    margin: 33px auto;
+    /* border: 2px solid rgb(12, 162, 12); */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 51px;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+.container {
+    border: 2px solid rgb(255, 255, 255);
+    margin: 88px 40px;
+    padding: 17px 39px;
+    width: 28%;
+    border-radius: 30px
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 276px;
+    padding: 6px;
+    margin: 9px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.container h1 {
+    text-align: center;
+
+}
+
+.container button {
+    display: block;
+    width: 13%;
+    margin: 20px auto;
+}
+.form-group input{
+    font-family: cursive;
+}
